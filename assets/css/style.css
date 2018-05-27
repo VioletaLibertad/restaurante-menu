@@ -1,0 +1,35 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: blanchedalmond;
+}
+
+.bg {
+    background-image: url("C:\Users\morad\Documents\Laboratoria\ejercicios-libres\restaurante-menu\assets\css\img\fondo.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foodItem {
+    float: left;
+}
+
+.btnItem {
+    position: absolute;
+}
+
+.foodImage {
+    height: 120px;
+    width: 150px;
+    margin: 5px;
+}
+
+#confirm {
+    position: fixed;
+}

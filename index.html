@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Ordenando Comida</title>
+</head>
+<body>
+    <div class="bg">
+        
+        <!-- Titulo e instrucciones -->
+        <section>
+            <h2>Le Restaurante Online</h2>
+            <h3>Menu</h3>
+            <h4>Elige un plato para verificar su disponibilidad:</h4>
+        </section>    
+
+        <!-- Platos a elegir -->
+        <section>
+            <div class="foodItem">
+                <img src="C:\Users\morad\Documents\Laboratoria\ejercicios-libres\restaurante-menu\assets\css\img\ceviche.jpg" alt="ceviche" class="foodImage" id="imgCeviche">
+                <button onclick="submit1()" id="btnCeviche" class="btnItem">Ceviche Peruano</button>
+            </div>
+            <div class="foodItem">
+                <img src="C:\Users\morad\Documents\Laboratoria\ejercicios-libres\restaurante-menu\assets\css\img\tacos.jpg" alt="tacos" class="foodImage" id="imgTacos">
+                <button onclick="submit2()" id="btnTaco" class="btnItem">Tacos al Pastor</button>
+            </div>
+            <div class="foodItem">
+                <img src="C:\Users\morad\Documents\Laboratoria\ejercicios-libres\restaurante-menu\assets\css\img\empanada.jpg" alt="empanada" class="foodImage" id="imgEmpanada">
+                <button onclick="submit3()" id="btnEmpa" class="btnItem">Empanadas Chilenas</button>
+            </div>
+            <div class="foodItem">
+                <img src="C:\Users\morad\Documents\Laboratoria\ejercicios-libres\restaurante-menu\assets\css\img\burger.jpg" alt="burger" class="foodImage" id="imgBurger">
+                <button onclick="submit4()" id="btnBurger" class="btnItem">Hamburguesa</button>
+            </div>
+        </section>
+      
+        <section>
+            <button on click="choice()" id="confirm">Confirmar mi eleccion</button>
+        </section>
+        <section>
+            <p id="selection"></p>
+        </section>
+
+    </div>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
