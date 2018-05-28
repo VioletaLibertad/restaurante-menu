@@ -16,10 +16,11 @@ function submit3(btnEmpa) {
 }
 
 function submit4(btnBurger) {
-    alert("Disponible");
+    alert("Disponible. Ingresado al pedido.");
     menu.push("Hamburguesa");
 }
 
-function choice() {
-    document.getElementById("selection").innerHTML = "menu"
+function selectedDish(btnSelect) {
+    alert("Has elegido " + menu + " en tu pedido")
+    document.getElementById("selection").innerHTML = "Tu pedido de " + menu + " ha sido ingresado en nuestro sistema y se está preparando. Gracias por comprar con nosotros."
 }

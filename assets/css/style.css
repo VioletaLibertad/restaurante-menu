@@ -5,15 +5,9 @@
 body, html {
     height: 100%;
     margin: 0;
-    background-color: blanchedalmond;
-}
-
-.bg {
-    background-image: url("C:\Users\morad\Documents\Laboratoria\ejercicios-libres\restaurante-menu\assets\css\img\fondo.jpg");
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(../css/img/fondoNew.jpg);
     background-size: cover;
+    color: blanchedalmond;
 }
 
 .foodItem {

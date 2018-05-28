@@ -8,43 +8,38 @@
     <title>Ordenando Comida</title>
 </head>
 <body>
-    <div class="bg">
-        
-        <!-- Titulo e instrucciones -->
-        <section>
-            <h2>Le Restaurante Online</h2>
-            <h3>Menu</h3>
-            <h4>Elige un plato para verificar su disponibilidad:</h4>
-        </section>    
+           
+    <!-- Titulo e instrucciones -->
+    <section>
+        <h2>Le Restaurante Online</h2>
+        <h3>Menu</h3>
+        <h4>Selecciona uno de nuestros platos para ingresarlo en tu pedido:</h4>
+    </section>    
 
-        <!-- Platos a elegir -->
-        <section>
-            <div class="foodItem">
-                <img src="C:\Users\morad\Documents\Laboratoria\ejercicios-libres\restaurante-menu\assets\css\img\ceviche.jpg" alt="ceviche" class="foodImage" id="imgCeviche">
-                <button onclick="submit1()" id="btnCeviche" class="btnItem">Ceviche Peruano</button>
-            </div>
-            <div class="foodItem">
-                <img src="C:\Users\morad\Documents\Laboratoria\ejercicios-libres\restaurante-menu\assets\css\img\tacos.jpg" alt="tacos" class="foodImage" id="imgTacos">
-                <button onclick="submit2()" id="btnTaco" class="btnItem">Tacos al Pastor</button>
-            </div>
-            <div class="foodItem">
-                <img src="C:\Users\morad\Documents\Laboratoria\ejercicios-libres\restaurante-menu\assets\css\img\empanada.jpg" alt="empanada" class="foodImage" id="imgEmpanada">
-                <button onclick="submit3()" id="btnEmpa" class="btnItem">Empanadas Chilenas</button>
-            </div>
-            <div class="foodItem">
-                <img src="C:\Users\morad\Documents\Laboratoria\ejercicios-libres\restaurante-menu\assets\css\img\burger.jpg" alt="burger" class="foodImage" id="imgBurger">
-                <button onclick="submit4()" id="btnBurger" class="btnItem">Hamburguesa</button>
-            </div>
-        </section>
-      
-        <section>
-            <button on click="choice()" id="confirm">Confirmar mi eleccion</button>
-        </section>
-        <section>
+    <!-- Platos a elegir -->
+    <section>
+        <div class="foodItem">
+            <img src="../restaurante-menu/assets/css/img/ceviche.jpg" alt="ceviche" class="foodImage" id="imgCeviche">
+            <button onclick="submit1()" id="btnCeviche" class="btnItem">Ceviche Peruano</button>
+        </div>
+        <div class="foodItem">
+            <img src="../restaurante-menu/assets/css/img/tacos.jpg" alt="tacos" class="foodImage" id="imgTacos">
+            <button onclick="submit2()" id="btnTaco" class="btnItem">Tacos al Pastor</button>
+        </div>
+        <div class="foodItem">
+            <img src="../restaurante-menu/assets/css/img/empanada.jpg" alt="empanada" class="foodImage" id="imgEmpanada">
+            <button onclick="submit3()" id="btnEmpa" class="btnItem">Empanadas Chilenas</button>
+        </div>
+        <div class="foodItem">
+            <img src="../restaurante-menu/assets/css/img/burger.jpg" alt="burger" class="foodImage" id="imgBurger">
+            <button onclick="submit4()" id="btnBurger" class="btnItem">Hamburguesa</button>
+        </div>
+        <div class="foodItem">
+            <button onclick="selectedDish()" id="btnSelect">Confirmar mi eleccion</button>
             <p id="selection"></p>
-        </section>
-
-    </div>
+        </div>
+        
+    </section>      
     <script src="assets/js/app.js"></script>
 </body>
 </html>
