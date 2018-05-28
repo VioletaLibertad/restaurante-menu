@@ -10,7 +10,7 @@
 <body>
            
     <!-- Titulo e instrucciones -->
-    <section>
+    <section id="title">
         <h2>Le Restaurante Online</h2>
         <h3>Menu</h3>
         <h4>Selecciona uno de nuestros platos para ingresarlo en tu pedido:</h4>
@@ -33,12 +33,13 @@
         <div class="foodItem">
             <img src="../restaurante-menu/assets/css/img/burger.jpg" alt="burger" class="foodImage" id="imgBurger">
             <button onclick="submit4()" id="btnBurger" class="btnItem">Hamburguesa</button>
-        </div>
-        <div class="foodItem">
-            <button onclick="selectedDish()" id="btnSelect">Confirmar mi eleccion</button>
+        </div>       
+    </section>
+    <section>
+        <div class="foodItem2">
+            <button onclick="selectedDish()" id="btnSelect" class="btnItem2">Confirmar mi eleccion</button>
             <p id="selection"></p>
         </div>
-        
     </section>      
     <script src="assets/js/app.js"></script>
 </body>
